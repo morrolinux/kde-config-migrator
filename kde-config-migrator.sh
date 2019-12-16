@@ -29,6 +29,9 @@ then
 	
 	# Ark
 	cp --parent ~/.config/arkrc .
+
+	# Desktop right click simplification
+	cp --parent ~/.config/plasma-org.kde.plasma.desktop-appletsrc .
 	
 	# Create the archive
 	cd ..
